@@ -15,6 +15,12 @@ sumAll([1, 4]);
 ```
 
 ### Solution
+<details>
+  <summary>
+    My answer
+  </summary>
+  
+  
 ```javascript
 function sumAll(arr) {
   let start, end, sum = 0;
@@ -33,3 +39,4 @@ function sumAll(arr) {
 
 sumAll([1, 4]);
 ```
+</details>
