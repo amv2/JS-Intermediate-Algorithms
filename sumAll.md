@@ -17,7 +17,7 @@ sumAll([1, 4]);
 ### Solution
 <details>
   <summary>
-    My answer
+    My answer :hand_over_mouth:
   </summary>
   
   
