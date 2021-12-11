@@ -11,7 +11,11 @@ Translate the provided string to Pig Latin. Input strings are guaranteed to be E
 
 ### Problem
 ```javascript
+function translatePigLatin(str) {
+  return str;
+}
 
+translatePigLatin("consonant");
 ```
 
 ### Solution
@@ -19,7 +23,9 @@ Translate the provided string to Pig Latin. Input strings are guaranteed to be E
   <summary>
     My answer 🤧
   </summary>
-  ```javascript
+  
+  
+```javascript
 function translatePigLatin(str) {
   if (str.match(/[aeiou]/)) {
     let index = str.indexOf(str.match(/[aeiou]/));
@@ -31,5 +37,5 @@ function translatePigLatin(str) {
 }
 
 console.log(translatePigLatin("glove"));
-  ```
+```
 </details>
