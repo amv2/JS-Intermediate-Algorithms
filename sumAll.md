@@ -17,20 +17,15 @@ sumAll([1, 4]);
 ### Solution
 <details>
   <summary>
-    My answer 😎
+    My answer
   </summary>
   
   
 ```javascript
 function sumAll(arr) {
   let start, end, sum = 0;
-  if (arr[0] < arr[1]) {
-    start = arr[0];
-    end = arr[1];
-  } else {
-    start = arr[1];
-    end = arr[0];
-  }
+  start = Math.min(arr[0],arr[1]);
+  end = Math.max(arr[0],arr[1]); 
   for (let i=start; i<=end; i++) {
     sum += i;
   }
